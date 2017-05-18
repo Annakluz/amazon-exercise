@@ -1,0 +1,18 @@
+#titulo{
+  /*font-size: 30px;*/
+}
+.centrar{
+  text-align: center;
+}
+
+.der{
+  text-align: right;
+}
+
+#pag{
+  background-color:lightgray;
+}
+
+.gris{
+  color: gray;
+}

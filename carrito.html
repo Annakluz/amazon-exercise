@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--metas de bootstrap  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> 💰 Carrito de Compras 💰</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/carrito.css">
+  </head>
+  <body>
+    <section class="container col-xs-10">
+      <div class="row page-header">
+        <span id="titulo" class="col-xs-9 "><strong> Carrito </strong></span>
+        <span class=" col-xs-1 centrar"> Precio </span>
+        <span class="col-xs-2 centrar"> Cantidad </span>
+      </div>
+      <!--Producto 1  -->
+      <div class="row page-header">
+        <div class="col-xs-2">
+          <img src="assets/img/amazon-dummy-busqueda.jpg" alt="" class="img-responsive">
+        </div>
+        <div class="col-xs-6">
+          <h4 class="text-primary"> The lengend of Zelda: Breath of the Wild - Nintendo Switch - Standard Edition </h4>
+          <p><small>Por Nintendo videojuego.</small></p>
+          <span class="text-success"><strong>Disponible</strong></span>
+          <br>
+          <label>
+            <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+            <span> Es un regalo</span>
+          </label>
+          <p class="text-primary"><a href="#">Eliminar </a> | <a href="#">Guardar para más tarde</a></p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-1">
+          <span class="text-danger"> <strong> $1,298.00 <strong></span>
+        </div>
+        <div class="col-xs-1">
+          <input type="number" name="" value="1">
+        </div>
+      </div>
+      <!--Producto 2  -->
+      <div class="row page-header">
+        <div class="col-xs-2">
+          <img src="assets/img/amazon-dummy2.jpg" alt="" class="img-responsive">
+        </div>
+        <div class="col-xs-6">
+          <h4 class="text-primary"> Koblenz ER-2550 - Fuente de alimentación continua,2500 VA, 6 contactos</h4>
+          <p><small>Por Koblenz</small></p>
+          <span class="text-success"><strong>Disponible</strong></span>
+          <br>
+          <label>
+            <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+            <span> Es un regalo</span>
+          </label>
+          <p class="text-primary"><a href="#">Eliminar </a> | <a href="#">Guardar para más tarde</a></p>
+        </div>
+        <div class="col-xs-offset-1 col-xs-1">
+          <span class="text-danger"><strong> $699.00 </strong></span>
+        </div>
+        <div class="col-xs-1">
+          <input type="number" name="" value="1">
+        </div>
+      </div>
+      <!-- Subtotal -->
+      <div class="row">
+        <span class="col-xs-offset-9">
+          <strong>
+            Subtotal (2 productos):
+            <span class="text-danger">$1,997.00</span>
+          </strong>
+        </span>
+      </div>
+      <!--Texto -->
+      <div class="row page-header">
+        <p class="col-xs-9">
+          <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.</small>
+        </p>
+      </div>
+      <div id="pag" class="container-fluid">
+        <span class="glyphicon glyphicon-menu-left gris col-xs-offset-3 col-xs-1"></span>
+        <div class="col-xs-4">
+          <span class="gris">Página anterior</span>
+          <span>1</span>
+          <span class="text-primary">2</span>
+          <span class="text-primary">3</span>
+          <span>...</span>
+          <span class="gris">24</span>
+          <span class="text-primary">Página siguiente</span>
+        </div>
+        <span class="glyphicon glyphicon-menu-right text-primary col-xs-1"></span>
+      </div>
+    </section><!--Contenedor principal -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
