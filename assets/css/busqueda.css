@@ -1,0 +1,35 @@
+ul{
+  border-right: 1px solid #CDCDCD;
+}
+.textoTamaño{
+  font-size: 11px;
+}
+.resultados a>span:last-child{
+  color: #999;
+  font-size: 12px;
+}
+.resultados li>a{
+  color: black;
+  font-size: 12px;
+}
+.resultados li>a:hover,
+.pagination a:hover,
+.videojuego,
+.dummyImg a:hover{
+  color:#F26E06;
+  text-decoration: none;
+}
+.resultados h5{
+  color:#CDCDCD;
+}
+.pagination{
+  box-shadow: 3px 3px 3px #CDCDCD;
+  width: 100%;
+}
+.margenAbajo{
+  margin-bottom: 0;
+}
+.prime{
+  width: 15%;
+  margin-top: -4%;
+}
