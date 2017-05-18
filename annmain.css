@@ -24,3 +24,7 @@ am-footerContainer{
     background-color: #232F3E;
     font-family: arial;
 }
+
+.am-links{
+    font-size: 12px;
+}
