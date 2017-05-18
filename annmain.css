@@ -1,0 +1,26 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+:before,
+:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Khula', sans-serif;
+    background-color: white;
+}
+
+.am-navbarContainer{
+    background-color: #232F3E;
+    font-family: arial;
+    
+}
+
+am-footerContainer{
+    background-color: #232F3E;
+    font-family: arial;
+}
