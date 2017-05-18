@@ -1,0 +1,47 @@
+.texto1{
+    font-size: 11px;
+}
+
+.texto2{
+    font-size: 8px;
+    padding-top: -10px;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.negro{
+    color: black;
+}
+
+.fondoGris{
+    background-color: #E0E0E0 ;
+}
+
+#asideIndex > div > div:nth-child(2) img,
+#asideIndex > div > div:nth-child(3) img{
+    height: 50px;
+}
+
+#asideIndex > div > div:nth-child(4) img,
+#asideIndex > div > div:nth-child(5) img,
+#asideIndex > div > div:nth-child(6) img{
+    height: 80px;
+}
+
+
+
+.asideFont{
+    font-size: 30px;
+    color: darkgray;
+    font-weight: 500;
+}
+
+#asideComentarios img{
+    height: 80px;
+}
+
+.estrellaComentarios{
+    height: 20px !important;
+}
