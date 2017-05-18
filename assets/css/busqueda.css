@@ -1,3 +1,4 @@
+
 ul{
   border-right: 1px solid #CDCDCD;
 }
@@ -32,4 +33,7 @@ ul{
 .prime{
   width: 15%;
   margin-top: -4%;
+}
+.estrella{
+  margin-left: 30%;
 }
