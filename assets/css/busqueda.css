@@ -23,17 +23,35 @@ ul{
 .resultados h5{
   color:#CDCDCD;
 }
-.pagination{
+
+.pagination, .pestañas{
   box-shadow: 3px 3px 3px #CDCDCD;
   width: 100%;
+  margin-top: 0px;
 }
 .margenAbajo{
   margin-bottom: 0;
 }
 .prime{
-  width: 15%;
-  margin-top: -4%;
+  width: 40px;
+  margin-top:-10px;
 }
 .estrella{
-  margin-left: 30%;
+  margin-left: 25%;
+}
+.gris{
+  color: gray;
+}
+.paginationFinal{
+  background: #F2F2F2;
+  padding: 1%;
+}
+.paginationFinal span{
+  padding: 1%;
+}
+.jumbotron{
+  background: none;
+  border: 1px solid #CDCDCD;
+  margin: 1.5%;
+  padding:2%;
 }
