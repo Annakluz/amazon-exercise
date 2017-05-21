@@ -8,14 +8,17 @@
     <title> 💰 Carrito de Compras 💰</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/carrito.css">
+    <link rel="stylesheet" href="assets/css/aside.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <section class="container col-xs-10">
       <div class="row page-header">
         <span id="titulo" class="col-xs-9 "><strong> Carrito </strong></span>
         <span class=" col-xs-1 centrar"> Precio </span>
-        <span class="col-xs-2 centrar"> Cantidad </span>
+        <span class="col-xs-2 centrar"> Cantidad </span>    
       </div>
+      
       <!--Producto 1  -->
       <div class="row page-header">
         <div class="col-xs-2">
@@ -93,7 +96,56 @@
         </div>
         <span class="glyphicon glyphicon-menu-right text-primary col-xs-1"></span>
       </div>
-    </section><!--Contenedor principal -->
+      
+      
+    </section>
+    <section id="asideCarrito">
+        <div class="col-sm-2">
+            <div class="list-group">
+                <div href="#" class="list-group-item ">
+                    <div>
+                        <i class="fa fa-check text-success" style="color:green" aria-hidden="true"></i>
+                        <span class="text-success texto1">Tu pedido pedido es elegible como envio GRATIS</span>
+                    </div>
+                    <div>
+                        <span class="text-info texto1">Comprueba los productos incluidos en la oferta</span>
+                    </div>
+                    <div>
+                        <span class="text-muted texto1">Selecciona esta opción al tramitar el pedido</span>
+                    </div>
+                </div>
+                <div href="#" class="list-group-item fondoGris">
+                    <div class="negro bold">Subtotal 2(productos):</div>
+                    <div class="text-danger bold">$ 1,887</div>
+                    <div>
+                        <input type="checkbox" value="">
+                        <span class="negro texto1">Este producto es un regalo.</span>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-warning btn-block">
+                            <span class="negro">Proceder al pago</span>
+                        </button>
+                    </div>
+                    <div>
+                        <p class="text-center">o</p>
+                    </div>
+                    <div>
+                        <span class="text-info texto1"><a href="">Identificate</a></span>
+                        <span class="texto1"> para activar el pedido en 1-Clik.</span>
+                    </div>
+
+                </div>
+                <div href="#" class="list-group-item">
+                    <a href="" class="negro"><div class="texto1">Calcula tus impuestos y gastos de envio
+                        <i class="fa fa-chevron-down text-success" aria-hidden="true"></i>
+                    </div></a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Contenedor principal -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
