@@ -18,6 +18,18 @@
 .fondoGris{
     background-color: #E0E0E0 ;
 }
+.bordeGris{
+    border: 1px solid #C0C0C0 ;
+}
+.gris{
+    color: #585858  ;
+}
+.texto11{
+    font-size: 30px;
+}
+.bordeCafe{
+    border: 1px solid #704010 ;
+}
 
 #asideIndex > div > div:nth-child(2) img,
 #asideIndex > div > div:nth-child(3) img{
@@ -45,3 +57,4 @@
 .estrellaComentarios{
     height: 20px !important;
 }
+
