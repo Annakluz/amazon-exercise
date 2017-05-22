@@ -1,0 +1,110 @@
+footer{
+  background-color: #232f3e;
+}
+footer dl {
+  padding-left: 2em;
+}
+footer a dd{
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+
+}
+footer a dd:hover{
+  color:#ed991c;
+}
+footer dt{
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+footer li{
+  list-style: none;
+  text-decoration: none;
+}
+dl li dt{
+  font-weight: 700;
+  font-family: sans-serif;
+  font-size: 1em;
+}
+label input.checkbox{
+  font-size: 2em;
+}
+.price:hover, .ofertas:hover  {
+  color:#ed991c;
+  text-decoration: none;
+}
+
+.price{
+  color: red;
+}
+
+a:hover{
+  color: #000;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+
+.informacion{
+  padding-top: 5em;
+  padding-bottom: 5em
+}
+.botonG{
+    color:white;
+    font-size: 1em;
+   background: #212125;
+}
+.botonXG{
+    background: #212125;
+    font-size: 1em;
+    color:white;
+}
+footer a.botonG:hover, .botonXG:hover{
+  color: white;
+  background-color: #232f3e;
+
+}
+.cedes .breadcrumb {
+  background-color: #232f3e;
+
+}
+.letraBlanca{
+  color:white ;
+}
+.letraBLanca:hover{
+  color: lightblue;
+}
+.derechos{
+  background-color: #000;
+
+}
+
+.relleno{
+  padding:10%;
+}
+
+.fondoNegro{
+  background:black;
+  color:white;
+}
+.fondoBlanco{
+  background:white;
+  color:black;
+}
+
+section .thumbnail{
+    background-color: #232f3e;
+    border: none;
+}
+
+
+.tamanoImg{
+  width: 8%;
+  height: auto;
+  padding:0;
+}
+.espacionVertical{
+  height:2em;
+}

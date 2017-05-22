@@ -1,0 +1,38 @@
+
+.borde1{
+  border: 1px solid green;
+  height: 50px;
+  padding: 0px;
+}
+.borde{
+  border: 1px solid red;
+  height: 50px;
+  padding: 0px;
+}
+.ancho{
+  width:100%;
+  height: 3em;
+  padding: 0;
+}
+/*.botonimagen{
+  background-image:url(../img/icono-busqueda.jpg);
+}*/
+/*.anchoIcono{
+  width:700%;
+}
+.circulo{
+  border-radius: 50%;
+}
+.bordeLetra{
+  padding: 0px;
+}
+<div  .ol-md-2 .borde  .input-group  {
+  padding: 0px;
+}
+.drowdouniHeaer{
+  padding-left: 10%;
+  padding-right: 20%;
+}
+.colorFondoHeader{
+  background: black;
+}*/
