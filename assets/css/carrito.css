@@ -1,5 +1,5 @@
-#titulo{
-  /*font-size: 30px;*/
+#carrito{
+  background-color: white;
 }
 .centrar{
   text-align: center;
@@ -15,4 +15,8 @@
 
 .gris{
   color: gray;
+}
+
+.ancho{
+  width: 250%;
 }
