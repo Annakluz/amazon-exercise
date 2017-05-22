@@ -7,14 +7,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> 💰 Carrito de Compras 💰</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/barra%20y%20footer%20.css">
     <link rel="stylesheet" href="assets/css/carrito.css">
     <link rel="stylesheet" href="assets/css/aside.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <section class="container col-xs-10">
+    <header class="container-fluid  fondoNegro ">
+        <div class="row">
+            <section class="col-xs-1 fondoNegro bordeLetra">
+                <img src="assets/img/amazone.png" class="img-responsive">
+            </section>
+            <section class="col-xs-1 bordeLetra  ">
+                <div class=" input-group ">
+                    <div class="dropdown input-group-btn ">
+                        <button class="btn  fondoBlanco dropdown-toggle" type="button" data-toggle="dropdown">
+                          Drowdown
+                          <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="col-md-6 fondoNegro cero">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder=". Search for...">
+                    <span class="input-group-btn">
+                      <button class="btn " type="button">
+                        <span class="glyphicon glyphicon-search fondoNaranja"></span>
+                      </button>
+                    </span>
+                </div>
+            </section>
+            <section class="col-md-2 ">
+                <span>
+                    <img src="assets/img/iconoPlay.jpg" class="imgPlay " alt="">
+                    <a href="#" class="letraBlanca"> Prime Video</a>
+                </span>
+            </section>
+            <section class="col-md-2 ">
+                <br>
+                <span>
+                    <a href="#" class="fondoNegro text-center line-height"> Tu prueba gratis</a>
+                </span>
+            </section>
+       </div>
+       <div class="row">
+          <section class="col-md-2  text-center">
+             <div class="dropdown  col-md-2 input-group-btn text-center ">
+                <button class="btn  fondoNegro dropdown-toggle text-center btn-block" type="button" data-toggle="dropdown">Todos los <br><strong>Departamentos</strong>
+                   <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                   <li><a href="#">HTML</a></li>
+                   <li><a href="#">CSS</a></li>
+                   <li><a href="#">JavaScript</a></li>
+                </ul>
+             </div>
+          </section>
+          <section class="col-md-4 fondoNegro">
+            <ol class="list-inline fondoNegro text-center">
+              <li>
+                <a href="#" class="letraBlanca">
+                  <dd>Mi amazon.com.mx</dd>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="letraBlanca">
+                  <dd>Promociones</dd>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="letraBlanca">
+                  <dd>Promociones</dd>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="letraBlanca">
+                  <dd>ayuda</dd>
+                </a>
+              </li>
+            </ol>
+          </section>
+          <section class="col-md-2 ">
+            <div class="dropdown  col-md-2 input-group-btn text-center ">
+              <button class="btn  fondoNegro btn-block dropdown-toggle text-center" type="button" data-toggle="dropdown">Hola Identificate <br><strong>Mi cuenta</strong>
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="#">HTML </a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+              </ul>
+            </div>
+          </section>
+          <section class="col-md-1 text-center ">
+            <div class="dropdown  col-md-1 input-group-btn text-center ">
+              <button class="btn  fondoNegro dropdown-toggle  btn-block " type="button" data-toggle="dropdown">Prueba<br><strong>Prime</strong>
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+              </ul>
+            </div>
+          </section>
+          <section class="col-md-1 ">
+            <div class="dropdown  col-md-1 input-group-btn text-center ">
+              <button class="btn  fondoNegro dropdown-toggle btn-block" type="button" data-toggle="dropdown">wish <br><strong>List</strong>
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+              </ul>
+            </div>
+          </section>
+          <section class="col-md-1 text-center ">
+            <button type="button" name="button" Class="btn btnCarrito fondoNegro text-center">
+              <img src="assets/img/carritoCompras.jpg" class="imgCarrito" alt="">
+            </button>
+          </section>
+       </div>
+    </header>
+    <!-- Sección carrito -->
+    <section id="carrito" class="container col-xs-10">
       <div class="row page-header">
-        <span id="titulo" class="col-xs-9 "><strong> Carrito </strong></span>
+        <h2 id="titulo" class="col-xs-9 "><strong> Carrito </strong></h2>
         <span class=" col-xs-1 centrar"> Precio </span>
         <span class="col-xs-2 centrar"> Cantidad </span>
       </div>
@@ -39,7 +164,7 @@
           <span class="text-danger"> <strong> $1,298.00 <strong></span>
         </div>
         <div class="col-xs-1">
-          <input type="number" name="" value="1">
+          <input type="number" name="" value="1" class="ancho">
         </div>
       </div>
       <!--Producto 2  -->
@@ -62,7 +187,7 @@
           <span class="text-danger"><strong> $699.00 </strong></span>
         </div>
         <div class="col-xs-1">
-          <input type="number" name="" value="1">
+          <input type="number" name="" value="1" class="ancho">
         </div>
       </div>
       <!-- Subtotal -->
@@ -83,10 +208,8 @@
             nisi ut aliquip ex ea commodo consequat.</small>
         </p>
       </div>
-
-
     </section>
-    <section id="asideCarrito">
+    <section id="asideCarrito"> <!--Contenedor principal -->
         <div class="col-sm-2">
             <div class="list-group">
                 <div href="#" class="list-group-item ">
@@ -130,9 +253,90 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <!--Contenedor principal -->
+    </section> <!-- Aside carrito-->
+    <!--Aqui empieza el footer.....  :)-->
+    <footer class="container-fluid">
+      <div class="boton  row">
+        <a href="#header" class="botonG text-center col-md-12">
+          <button type="button"class="btn botonXG"  name="button">Inicio de página</button>
+        </a>
+      </div>
+      <section class="informacion  row text-justified pie">
+      <div class="col-md-12  espacionVertical">
+      </div>
+      <section class="col-md-3">
+        <dl>
+          <dt class="text-uppercase">conócenos</dt>
+            <a href="#"><dd>Trabajar en amazon</dd></a>
+            <a href="#"><dd>Informacion Corporativa </dd></a>
+            <a href="#"><dd>Departamento  de prensa</dd></a>
+        </dl>
+      </section>
+      <section class="col-md-3 ">
+        <dl>
+          <dt class="-text-uppercase">Gana dinero  con  nosotros</dt>
+            <a href="#"><dd>Invota y gana $150</dd></a>
+            <a href="#"><dd>Publica tu  libro de  Kindle.</dd></a>
+            <a href="#"><dd>Programa tu libro  de  afiliados</dd></a>
+        </dl>
+      </section>
+      <section class="col-md-3 ">
+        <dl>
+          <dt class="-text-uppercase">Podemos Ayudarte</dt>
+            <a href="#"><dd>Devolver o remplazar productos</dd></a>
+            <a href="#"><dd>Amazon Prime</dd></a>
+            <a href="#"><dd>Gestionar contenido y dispositivos</dd></a>
+            <a href="#"><dd>Ayuda</dd></a>
+        </dl>
+      </section>
+      <section class="col-md-3 ">
+        <dl>
+          <dt class="-text-uppercase">Métodos de  pago</dt>
+            <a href="#"><dd>Targetas  de crédito  y débito</dd></a>
+            <a href="#"><dd>Targetas de regalo</dd></a>
+            <a href="#"><dd>Mesas  sin intereses</dd></a>
+            <a href="#"><dd>Gestionar  contenido  de dispositivos</dd></a>
+        </dl>
+      </section>
+      <section class="thumbnail ">
+        <div class="col-md-12 text-center">
+          <div class="col-md-12  espacionVertical"></div>
+          <img src="assets/img/amazone.png"class="tamanoImg" alt="">
+        </div>
+        <div class="col-md-12  espacionVertical"></div>
+          <div class="col-md-12 cedes text-center">
+            <ol  class="breadcrumb">
+               <li><a href="#" class="letraBlanca">Australia</a></li>
+               <li><a href="#" class="letraBlanca">Brasil</a></li>
+               <li><a href="#" class="letraBlanca">China</a></li>
+               <li><a href="#" class="letraBlanca">Australia</a></li>
+               <li><a href="#" class="letraBlanca">España</a></li>
+               <li><a href="#" class="letraBlanca">Estados Unidos</a></li>
+               <li><a href="#" class="letraBlanca">Francia</a></li>
+               <li><a href="#" class="letraBlanca">India</a></li>
+               <li><a href="#" class="letraBlanca">Italia </a></li>
+               <li><a href="#" class="letraBlanca">Japón</a></li>
+               <li><a href="#" class="letraBlanca">Países Bajos </a></li>
+               <li><a href="#" class="letraBlanca">México</a></li>
+               <li>
+                 <span class="text-muted">
+                   Y también :
+                 </span>
+                <a href="#" class="letraBlanca">Amazon web services</a>
+               </li>
+             </ol>
+         </div>
+        </section>
+        <section class="col-md-12 text-center copyright">
+          <ol class="breadcrumb row derechos">
+            <li><a href="#" class="enlacesBlancos">Condiciones de uso</a></li>
+            <li><a href="#" class="enlacesBlancos">aviso de privacidad</a></li>
+            <p class="text-muted">
+              1996-2017,amazon.com;Inc . o afiliados Todos los derechos reservados
+            </p>
+          </ol>
+        </section>
+    </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

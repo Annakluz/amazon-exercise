@@ -1,4 +1,4 @@
-  <header .container-fluid.fondoNegro{
+  header .container-fluid.fondoNegro{
     height: 300px;
   }
 .redondear{
@@ -41,8 +41,7 @@ input .form-control.ancho{
 .navbar-form{
   width: 100%;
 }
-marg
-margentop
+
 .margenTop{
   margin-top: 2em;
 }
@@ -77,7 +76,7 @@ height: auto;
 .imgCarrito{
 border-radius: 50%;
 }
-footer{
+.pie{
   background-color: #232f3e;
 }
 footer dl {
