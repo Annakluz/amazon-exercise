@@ -1,0 +1,81 @@
+
+
+.imagenes-videojuegos{
+	border: solid 0.5px;
+	border-color: grey;
+	margin-top: 2%;
+	width: 100%;
+}
+
+
+.imagen-grande{
+ width: 80%;
+ display:inline-block;
+ margin-top:10%;
+}
+
+.lista-imagenes li{
+  list-style: none;
+}
+.page-header{
+	margin: 0;
+}
+.azul{
+    color:dodgerblue;
+}
+
+.tamano{
+    font-size:0.8vw;
+}
+.rojo{
+    color:red;
+}
+.verde{
+ color:forestgreen;
+}
+
+.tamano2{
+    font-size:70%;
+}
+.boton1{
+border-color: orange;
+}
+.borde{
+    border-radius: 0;
+    font-size:0.9vw;
+}
+
+.descripcion li{
+	font-size:0.9vw;
+	text-align: justify;
+	margin-top:2%;
+}
+.iconos{
+	display: flex;
+	justify-content: center;
+}
+
+.cuadro{
+	text-align: center;
+	border: solid 0.5px grey;
+	border-radius: 2%;
+	margin-top:3%;
+}
+
+hr{
+	width:80%;
+}
+.tamano3{
+  font-size: 1vw;
+ text-align: left;
+ margin-left: 23%;
+}
+
+.margen{
+	margin-bottom:5%;
+}
+
+.btn-carrito2{
+ height: 50%;
+	font-size:0.7vw;
+}
